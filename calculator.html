@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Simple Calculator - Sergio</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <input type="text" name="screen" id="savedAnswer" maxlength="10" readonly/>
+        <input type="text" name="screen" id="answer" placeholder="0" maxlength="10" readonly/>
+        <table>
+          <tr>
+            <td><button id="outerButtons">(</button></td>
+            <td><button id="outerButtons">)</button></td>
+            <td><button id="outerButtons">%</button></td>
+            <td><button id="outerButtons">&divide</button></td>
+          </tr>
+          <tr>
+            <td><button id="innerButtons">7</button></td>
+            <td><button id="innerButtons">8</button></td>
+            <td><button id="innerButtons">9</button></td>
+            <td><button id="outerButtons">X</button></td>
+          </tr>
+          <tr>
+            <td><button id="innerButtons">4</button></td>
+            <td><button id="innerButtons">5</button></td>
+            <td><button id="innerButtons">6</button></td>
+            <td><button id="outerButtons">-</button></td>
+          </tr>
+          <tr>
+            <td><button id="innerButtons">1</button></td>
+            <td><button id="innerButtons">2</button></td>
+            <td><button id="innerButtons">3</button></td>
+            <td><button id="outerButtons">+</button></td>
+          </tr>
+          <tr>
+            <td><button id="clearButton">C</button></td>
+            <td><button id="outerButtons">.</button></td>
+            <td><button id="outerButtons">0</button></td>
+            <td><button id="equalButton">=</button></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div id="turn">Please Turn Your Device</div>
+  </body>
+  <script src="calculator.js"></script>
+</html>
