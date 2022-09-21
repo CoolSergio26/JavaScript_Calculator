@@ -1,1 +1,1 @@
-# [JavaScript_Calculator](https://CoolSergio26.github.io/JavaScript_Calculator)
+# [JavaScript_Calculator](https://CoolSergio26.github.io/JavaScript_Calculator/calculator.html)
